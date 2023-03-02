@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-st.title("This is Project on  :red[Tips Data Set ]")
+st.title("This is Project on  :red[Tips Data Set]")
 st.balloons()
 data = sns.load_dataset('tips')
 button1 = st.button('For Description of dataset Click here')
@@ -17,7 +17,7 @@ if button1:
     st.plotly_chart(fig,use_container_width=True)
 
 else:
-    st.image(plt.imread('click-me.gif'))
+    st.image(plt.imread('1621925865383.jpeg'))
     st.caption('You can click on the above button to read about the data')
 
 
